@@ -1,0 +1,15 @@
+# Maven
+/target/
+
+# IDEs
+/.idea/
+/.vscode/
+
+# Logs
+*.log
+
+# Uploads
+uploads/
+
+# Secrets
+application.properties
