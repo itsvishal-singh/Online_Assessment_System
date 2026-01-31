@@ -31,7 +31,7 @@
 
                         <!-- Email -->
                         <div class="mb-3">
-                            <label for="username" class="form-label">Email (this will be your login)</label>
+                            <label for="username" class="form-label">Email (this will be your login Username)</label>
                             <input type="email" class="form-control" id="username" th:field="*{username}" required>
                             <p th:if="${#fields.hasErrors('username')}" class="text-danger" th:errors="*{username}"></p>
                         </div>
