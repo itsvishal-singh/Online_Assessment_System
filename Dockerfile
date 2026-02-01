@@ -19,7 +19,7 @@ COPY src src
 RUN ./mvnw clean package -DskipTests
 
 # Expose port (Render provides PORT)
-EXPOSE 8080
+EXPOSE 7890
 
 # Run the app
 CMD ["java", "-jar", "target/*.jar"]

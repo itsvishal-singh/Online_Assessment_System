@@ -10,14 +10,13 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 @SpringBootApplication
-public class OnlineExamApplication {
+public class OnlineAssessmentApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OnlineExamApplication.class, args);
+		SpringApplication.run(OnlineAssessmentApplication.class, args);
 	}
 
-
-	//  will run once when the application starts
+	// will run once when the application starts
 	@Bean
 	CommandLineRunner createAdminUser(UserRepository userRepository, PasswordEncoder passwordEncoder) {
 		return args -> {
